@@ -1,0 +1,13 @@
+body {
+  background-size: 100vw 100vh;
+  font-family: "Trebuchet MS";
+  font-size: 5vh;
+}
+* {
+  margin: 0;
+}
+#timeDiv {
+  margin-left: 1em;
+  margin-top: calc(100vh - 5em);
+  color: white;
+}
