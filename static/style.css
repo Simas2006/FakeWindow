@@ -1,0 +1,18 @@
+body {
+  font-family: "Trebuchet MS";
+  font-size: 5vh;
+  overflow: hidden;
+}
+* {
+  margin: 0;
+}
+#image {
+  width: 100vw;
+  height: 100vh;
+}
+#timeDiv {
+  position: absolute;
+  left: 1em;
+  top: calc(100vh - 5em);
+  color: white;
+}
