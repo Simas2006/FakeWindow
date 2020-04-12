@@ -15,6 +15,7 @@ function createWindow() {
   window.on("closed",function() {
     window = null;
   });
+  window.setMenuBarVisibility(false)
   window.loadURL(`file://${__dirname}/static/index.html`);
 }
 
